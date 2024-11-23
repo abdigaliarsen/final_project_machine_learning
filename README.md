@@ -13,7 +13,9 @@ This guide outlines how to set up and run the project using **bash-only scripts*
 
 ### 1. Create and Activate Virtual Environment
 Run the following commands to create and activate a virtual environment:
+```
 source env/bin/activate
+```
 
 ### 2. Install Dependencies
 Install the required Python packages by running:
