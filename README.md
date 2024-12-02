@@ -64,6 +64,19 @@ mv *.*v dataset/
 
 ---
 
+## 📥 Download GloVe Embeddings
+
+Some parts of the project rely on word embeddings from GloVe. To download and install the GloVe embeddings, run the following commands:
+
+```
+wget https://nlp.stanford.edu/data/glove.6B.zip
+unzip glove.6B.zip -d vectors/
+```
+
+This will download and unzip the GloVe 6B embeddings into the vectors/ directory. You can choose from various embedding dimensions (50, 100, 200, or 300), depending on the requirement.
+
+---
+
 ## 📘 Notes
 - Ensure the `kaggle.json` file is securely stored and not included in version control.
 - Use these steps as a foundation for further enhancements, including Docker integration.
