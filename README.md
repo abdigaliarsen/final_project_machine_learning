@@ -77,6 +77,18 @@ This will download and unzip the GloVe 6B embeddings into the vectors/ directory
 
 ---
 
+## 📥 Download Google News Vectors
+
+Some parts of the project rely on word embeddings from Google News Vectors. To download and install the GloVe embeddings, follow these instructions:
+
+install https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g
+
+```
+unzip glove.6B.zip -d vectors/
+```
+
+---
+
 ## 📘 Notes
 - Ensure the `kaggle.json` file is securely stored and not included in version control.
 - Use these steps as a foundation for further enhancements, including Docker integration.
